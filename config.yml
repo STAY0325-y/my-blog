@@ -1,0 +1,11 @@
+baseURL: "https://STAY0325-y.github.io/my-blog/"
+languageCode: "ja"
+title: "My Blog"
+relativeURLs: true
+
+module:
+  imports:
+    - path: github.com/CaiJimmy/hugo-theme-stack/v3
+
+pagination:
+  pagerSize: 10
