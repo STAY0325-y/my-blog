@@ -33,8 +33,8 @@ params:
     subtitle: 平日残業、休日寝るだけの社畜。借金350万、お金もスキルも時間もない状態のが中の人です。
     avatar:
       enabled: true
-      local: false
-      src: /my-blog/img/choko.jpg
+      local: true
+      src: img/choko.jpg
   
   # フッター
   footer:
