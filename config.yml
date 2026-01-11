@@ -1,7 +1,8 @@
 baseURL: "https://STAY0325-y.github.io/my-blog/"
 languageCode: "ja"
-title: "My Blog"
-relativeURLs: true
+title: "金なしスキルなし限界社畜会社員の○○だけでいいブログ"
+relativeURLs: false
+canonifyURLs: true
 
 module:
   imports:
@@ -9,3 +10,93 @@ module:
 
 pagination:
   pagerSize: 10
+
+
+# Stackテーマの設定
+params:
+  assetsMinify: true  # CSS/JS の minify を有効にする（Stack v3 推奨）
+
+  mainSections:
+    - post
+
+  # プロフィール
+  author:
+   name: "手取り20万の中年限界社畜ブロガー"
+   bio: "平日残業、休日寝るだけの社畜。借金350万、お金もスキルも時間もない状態からブログで収益化を目指す。"
+   avatar:  img/choko.jpg
+
+  description: "平日残業、休日寝るだけの社畜。借金350万、お金もスキルも時間もない状態からブログで収益化を目指す。"
+  
+  # サイドバー
+  sidebar:
+    emoji: 📝
+    subtitle: 平日残業、休日寝るだけの社畜。借金350万、お金もスキルも時間もない状態のが中の人です。
+    avatar:
+      enabled: true
+      local: false
+      src: /my-blog/img/choko.jpg
+  
+  # フッター
+  footer:
+    since: 2026
+    customText: ''
+  
+  # 記事設定
+  article:
+    math: false
+    toc: true
+    readingTime: true
+    license:
+      enabled: false
+  
+  # コメント機能（オプション）
+  comments:
+    enabled: false
+  
+  # ウィジェット
+  widgets:
+    homepage:
+      - type: search
+      - type: archives
+        params:
+          limit: 5
+      - type: categories
+        params:
+          limit: 10
+      - type: tag-cloud
+        params:
+          limit: 10
+    page:
+      - type: toc
+
+# Markdownの設定
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    lineNos: true
+    style: monokai
+  tableOfContents:
+    endLevel: 4
+    ordered: true
+    startLevel: 2
+
+# メニュー設定
+menu:
+  main:
+    - identifier: home
+      name: ホーム
+      url: /
+      weight: -100
+      params:
+        icon: home
+    - identifier: about
+      name: 中の人について
+      url: /page/about/
+      weight: 0
+      params:
+        icon: user
+
+
