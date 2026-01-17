@@ -1,4 +1,4 @@
-baseURL: "https://STAY0325-y.github.io/my-blog/"
+baseURL: "https://only-these.com/"
 languageCode: "ja"
 title: "金なしスキルなし限界社畜会社員の○○だけでいいブログ"
 relativeURLs: false
@@ -14,6 +14,7 @@ pagination:
 
 # Stackテーマの設定
 params:
+  env: production
   assetsMinify: true  # CSS/JS の minify を有効にする（Stack v3 推奨）
 
   mainSections:
