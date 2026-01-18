@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://only-these.com/sitemap.xml

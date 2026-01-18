@@ -3,6 +3,7 @@ languageCode: "ja"
 title: "金なしスキルなし限界社畜会社員の○○だけでいいブログ"
 relativeURLs: false
 canonifyURLs: true
+enableRobotsTXT: true
 
 module:
   imports:
@@ -11,6 +12,10 @@ module:
 pagination:
   pagerSize: 10
 
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"
 
 # Stackテーマの設定
 params:
