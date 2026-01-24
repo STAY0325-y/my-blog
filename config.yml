@@ -27,9 +27,9 @@ params:
 
   # プロフィール
   author:
-   name: "手取り20万の中年限界社畜ブロガー"
-   bio: "平日残業、休日寝るだけの社畜。借金350万、お金もスキルも時間もない状態からブログで収益化を目指す。"
-   avatar:  img/choko.jpg
+    name: "手取り20万の中年限界社畜ブロガー"
+    bio: "平日残業、休日寝るだけの社畜。借金350万、お金もスキルも時間もない状態からブログで収益化を目指す。"
+    avatar:  img/choko.jpg
 
   description: "平日残業、休日寝るだけの社畜。借金350万、お金もスキルも時間もない状態からブログで収益化を目指す。"
   
@@ -101,8 +101,20 @@ menu:
     - identifier: about
       name: 中の人について
       url: /page/about/
-      weight: 0
+      weight: -1
       params:
         icon: user
+    - identifier: search
+      name: 検索
+      url: /page/search/
+      weight: 1
+      params:
+        icon: search
+    - identifier: archives
+      name: archive
+      url: /page/archives/
+      weight: 2
+      params:
+        icon: archives
 
 
