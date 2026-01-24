@@ -1,6 +1,6 @@
 ---
 title: "忙しい会社員は物販はAmazonアソシエイトだけでいい理由"
-date: 2025-01-04
+date: 2026-01-04
 draft: false
 type: post
 tags: ["副業", "Amazon", "アフィリエイト", "物販"]
