@@ -111,7 +111,7 @@ menu:
       params:
         icon: search
     - identifier: archives
-      name: archive
+      name: アーカイブ
       url: /page/archives/
       weight: 2
       params:
