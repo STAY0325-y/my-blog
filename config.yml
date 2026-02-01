@@ -116,5 +116,8 @@ menu:
       weight: 2
       params:
         icon: archives
-
-
+        
+  footer:
+    - name: プライバシーポリシー
+      url: /privacy-policy/
+      weight: -10
