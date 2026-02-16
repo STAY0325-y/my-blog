@@ -75,6 +75,9 @@ params:
     page:
       - type: toc
 
+  # ファビコン
+  favicon: "/img/favicon-32x32.png"
+
 # Markdownの設定
 markup:
   goldmark:
